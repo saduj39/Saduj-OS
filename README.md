@@ -4,9 +4,11 @@
 ## Source Structure
 
 ```
+├─ main
 │  .gitignore
 │  README.md
-│
+│  实验一结果截图.jpg
+│  实验二结果截图.jpg
 ├─ Lab_1
 │  │  rust-toolchain
 │  ├─ os
