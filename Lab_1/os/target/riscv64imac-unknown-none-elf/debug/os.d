@@ -1,0 +1,1 @@
+/home/saduj/LAB/os/target/riscv64imac-unknown-none-elf/debug/os: /home/saduj/LAB/os/src/console.rs /home/saduj/LAB/os/src/entry.asm /home/saduj/LAB/os/src/main.rs /home/saduj/LAB/os/src/panic.rs /home/saduj/LAB/os/src/sbi.rs
