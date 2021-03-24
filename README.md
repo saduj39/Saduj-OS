@@ -1,5 +1,7 @@
 # Saduj-OS
-2021操作系统课程作业_2019141450132_Zhou Xueyan
+2021操作系统课程作业
+
+周雪妍 2019141450132
 
 ## Source Structure
 
@@ -55,3 +57,10 @@
 
 ## Screenshots of the results
 
+实验一结果截图：
+
+![实验一结果截图.jpg](https://i.loli.net/2021/03/24/WPK5b1HqfN4A6GY.jpg)
+
+实验二结果截图：
+
+![实验二结果截图.jpg](https://i.loli.net/2021/03/24/P3tzir6jJ8GAfVY.jpg)
