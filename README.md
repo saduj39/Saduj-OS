@@ -11,22 +11,7 @@
 │  README.md
 │  实验一结果截图.jpg
 │  实验二结果截图.jpg
-├─ Lab_1
-│  │  rust-toolchain
-│  ├─ os
-│  │  │  Cargo.toml
-│  │  │  Makefile
-│  │  ├─ .cargo
-│  │  │  │  config
-│  │  ├─ src
-│  │  │  │  console.rs
-│  │  │  │  entry.asm
-│  │  │  │  linker.ld
-│  │  │  │  main.rs
-│  │  │  │  panic.rs
-│  │  │  │  sbi.rs
-│  │  ├─ target
-├─ Lab_2
+├─ Lab_3.1
 │  │  rust-toolchain
 │  ├─ os
 │  │  │  Cargo.toml
@@ -46,12 +31,17 @@
 │  │  │  │  main.rs.0
 │  │  │  │  panic.rs
 │  │  │  │  sbi.rs
-│  │  │  ├─ interrput
-│  │  │  │  │  context.rs
-│  │  │  │  │  handler.rs
-│  │  │  │  │  interrupt.asm
+│  │  │  ├─ buddy_system_allocator
+│  │  │  │  │  frame.rs
+│  │  │  │  │  lib.rs
+│  │  │  │  │  linked_list.rs
+│  │  │  │  │  test.rs
+│  │  │  ├─ memory
+│  │  │  │  │  config.rs
+│  │  │  │  │  heap.rs
 │  │  │  │  │  mod.rs
-│  │  │  │  │  timer.rs
+│  │  │  ├─ interrput
+│  │  │  ├─ riscv
 │  │  ├─ target
 ```
 
@@ -64,3 +54,7 @@
 实验二结果截图：
 
 ![实验二结果截图.jpg](https://i.loli.net/2021/03/24/P3tzir6jJ8GAfVY.jpg)
+
+实验三结果截图：
+
+![实验三-1结果截图.jpg](https://i.loli.net/2021/04/06/NF2loqkQSnAadJR.jpg)
