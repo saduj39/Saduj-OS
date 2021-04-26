@@ -9,7 +9,7 @@
 ├─ main
 │  .gitignore
 │  README.md
-├─ Lab_3
+├─ 进度-内核重映射
 │  │  rust-toolchain
 │  ├─ os
 │  │  │  Cargo.toml[3.3增加两项依赖]
@@ -19,32 +19,30 @@
 │  │  ├─ src
 │  │  │  │  console.rs
 │  │  │  │  entry.asm
-│  │  │  │  linker.ld
+│  │  │  │  linker.ld[4修改]
 │  │  │  │  main.rs
 │  │  │  │  main.rs.0
 │  │  │  │  panic.rs
 │  │  │  │  sbi.rs
+│  │  │  │  test.rs[4]
 │  │  │  ├─ buddy_system_allocator
-│  │  │  ├─ algorithm[3.3新增]
-│  │  │  │  │  Cargol.toml
-│  │  │  │  │  ├─ src
-│  │  │  │  │  │  lib.rs
-│  │  │  │  │  │  ├─ allocator
-│  │  │  │  │  │  │  bitmap_vector_allocator.rs
-│  │  │  │  │  │  │  mod.rs  stacked_allocator.rs
-│  │  │  │  │  │  │  stacked_allocator.rs
+│  │  │  ├─ algorithm[3.3]
 │  │  │  ├─ memory
 │  │  │  │  │  config.rs
 │  │  │  │  │  mod.rs[3.3新增pub mod range&frame]
 │  │  │  │  │  heap.rs
-│  │  │  │  │  heap2.rs[3.3新增]
-│  │  │  │  │  range.rs[3.3新增]
-│  │  │  │  │  address.rs[3.3新增]
-│  │  │  │  │  ├─ frame[3.3新增]
-│  │  │  │  │  │  allocator.rs
-│  │  │  │  │  │  frame_tracker.rs
-│  │  │  │  │  │  mod.rs
-│  │  │  ├─ interrput
+│  │  │  │  │  heap2.rs[3.3]
+│  │  │  │  │  range.rs[3.3]
+│  │  │  │  │  address.rs[3.3]
+│  │  │  │  │  ├─ frame[3.3]
+│  │  │  │  │  ├─ mapping[4]
+│  │  │  │  │  │  │ mapping.rs
+│  │  │  │  │  │  │ memory_set.rs
+│  │  │  │  │  │  │ mod.rs
+│  │  │  │  │  │  │ page_table.rs
+│  │  │  │  │  │  │ page_table_entry.rs
+│  │  │  │  │  │  │ segment.rs
+│  │  │  ├─ interrput[2]
 │  │  │  ├─ riscv
 │  │  ├─ target
 ​```
@@ -68,3 +66,6 @@
 
 ![实验三-3结果截图.jpg](https://i.loli.net/2021/04/08/OGa2NIcBq96ufSA.jpg)
 
+实验四结果截图：
+
+![实验四结果截图.jpg](https://i.loli.net/2021/04/26/UsL1NOAEFRVrqC5.jpg)
